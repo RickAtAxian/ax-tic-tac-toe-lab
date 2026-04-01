@@ -18,3 +18,6 @@ Update system so that:
 - phase-3-1.png
 - phase-3-2.png
 
+## Screen Links
+- [phase-3-1.png](./phase-3-1.png)
+- [phase-3-2.png](./phase-3-2.png)

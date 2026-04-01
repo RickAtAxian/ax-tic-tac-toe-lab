@@ -414,3 +414,7 @@
 
 - Fixed `docs/lab-wrap-up.md` link targets for GitHub rendering by replacing local filesystem paths with repo-relative markdown links.
 - Verified the wrap-up document now points at repository files and sections in a way that will work from the GitHub UI.
+
+## 2026-04-01 14:31 UTC
+
+- Added clickable `Screen Links` sections to `phases/phase-1/phase-1.md`, `phases/phase-2/phase-2.md`, and `phases/phase-3/phase-3.md` so the referenced PNGs can be opened directly from GitHub.
