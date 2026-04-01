@@ -15,9 +15,5 @@ Update system so that:
 - A pipeline compiles/bundles, runs tests, and runs code coverage
 
 ## Screens
-- phase-3-1.png
-- phase-3-2.png
-
-## Screen Links
 - [phase-3-1.png](./phase-3-1.png)
 - [phase-3-2.png](./phase-3-2.png)

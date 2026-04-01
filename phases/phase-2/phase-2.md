@@ -54,11 +54,6 @@ Practicing thoughtful repeatable use of Generative AI throughout the full develo
     - IaC updated to hold new infrastructure footprint.
  
 ## Screens
-- phase-2-1.png
-- phase-2-2.png
-- phase-2-3.png
-
-## Screen Links
 - [phase-2-1.png](./phase-2-1.png)
 - [phase-2-2.png](./phase-2-2.png)
 - [phase-2-3.png](./phase-2-3.png)

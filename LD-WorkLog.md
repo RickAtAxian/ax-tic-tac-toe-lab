@@ -418,3 +418,7 @@
 ## 2026-04-01 14:31 UTC
 
 - Added clickable `Screen Links` sections to `phases/phase-1/phase-1.md`, `phases/phase-2/phase-2.md`, and `phases/phase-3/phase-3.md` so the referenced PNGs can be opened directly from GitHub.
+
+## 2026-04-01 14:34 UTC
+
+- Simplified the phase documents by removing the redundant plain-text image lists and keeping only linked entries under each existing `Screens` heading.
