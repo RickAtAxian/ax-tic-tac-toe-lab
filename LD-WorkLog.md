@@ -422,3 +422,12 @@
 ## 2026-04-01 14:34 UTC
 
 - Simplified the phase documents by removing the redundant plain-text image lists and keeping only linked entries under each existing `Screens` heading.
+
+## 2026-04-01 14:39 UTC
+
+- Added and refined the `Note To Gabe And Tyler` section in `docs/lab-wrap-up.md` into a short signed letter that explains the screen drift, states that Rick asked for the explanation to be included in the agent's own voice, and documents the lesson that future UI work should treat the phase PNGs as a harder visual constraint.
+
+## 2026-04-01 14:46 UTC
+
+- Rick accepted the project as done.
+- Updated `WorkTracker.md` to record the final project acceptance state.

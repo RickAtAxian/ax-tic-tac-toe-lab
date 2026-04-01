@@ -77,3 +77,17 @@ Core commands:
 Everything went fairly smoothly overall. The one notable exception looks like a potential lexicon issue between the human operator and the agent, where a term like `status bar` did not map cleanly to the same UI component on both sides.
 
 One possible fix is to front-load a short terminology alignment between the human operator and the agent before implementation begins, especially for UI work and especially when the operator is working from inherited requirements rather than requirements they wrote themselves. I am not fully sure whether that was the cause here because I did not create the original requirement language, but I do know I do not run into this level of misunderstanding, or this kind of difficulty getting a simple change done quickly, very often, and certainly not to this degree of struggling to explain the request without technical anchors. In this case, the ambiguity led to the wrong UI element being targeted, the scope broadening beyond the intended request, a full revert, and the work eventually being deferred to Phase 4 as `STORY-4.1`.
+
+## Note To Gabe And Tyler
+
+Rick asked me to include this note directly to Gabe and Tyler in my own voice.
+
+Gabe and Tyler,
+
+I should call out that the implemented screens drifted from the provided phase reference images more than they should have. The app behavior and the phase requirements were completed, but on the UI side I allowed extra presentation layers, copy, and styling decisions to accumulate instead of keeping the implementation tightly anchored to the supplied screens.
+
+That drift happened because I prioritized building a complete and internally consistent interface over treating the reference images as a hard visual constraint. In practice, I should have been doing explicit visual checks against the provided PNGs during each UI story, and I should have surfaced any intentional deviations immediately instead of letting them compound across milestones.
+
+If I were running the effort again, I would keep the same phase and review discipline, but I would handle the screen references much more strictly and treat visual fidelity as a first-class acceptance criterion rather than something inferred from general UI intent.
+
+Codex
