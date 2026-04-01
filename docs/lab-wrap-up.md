@@ -2,9 +2,9 @@
 
 ## Handoff References
 
-- Repository: `https://github.com/RickAtAxian/ax-tic-tac-toe-lab.git`
-- Web app: `http://rickw-ai-tic-tac-toe-lab.s3-website-us-west-2.amazonaws.com`
-- Server: `http://ec2-34-217-60-117.us-west-2.compute.amazonaws.com:8787`
+- Repository: [https://github.com/RickAtAxian/ax-tic-tac-toe-lab.git](https://github.com/RickAtAxian/ax-tic-tac-toe-lab.git)
+- Web app: [http://rickw-ai-tic-tac-toe-lab.s3-website-us-west-2.amazonaws.com](http://rickw-ai-tic-tac-toe-lab.s3-website-us-west-2.amazonaws.com)
+- Server: [http://ec2-34-217-60-117.us-west-2.compute.amazonaws.com:8787](http://ec2-34-217-60-117.us-west-2.compute.amazonaws.com:8787)
 
 ## Project Docs
 
