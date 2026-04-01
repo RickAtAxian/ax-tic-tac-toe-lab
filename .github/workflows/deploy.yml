@@ -16,6 +16,7 @@ on:
       site_bucket_name:
         description: Globally unique S3 bucket for the static site
         required: true
+        default: rickw-ai-tic-tac-toe-lab
         type: string
       api_stack_name:
         description: CloudFormation stack name for the multiplayer API
@@ -25,6 +26,7 @@ on:
       api_artifact_bucket_name:
         description: S3 bucket for the packaged multiplayer API artifact
         required: true
+        default: rickw-ai-tic-tac-toe-lab-artifacts
         type: string
       allowed_api_cidr:
         description: CIDR allowed to reach the API
