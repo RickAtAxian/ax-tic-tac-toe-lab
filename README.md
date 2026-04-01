@@ -139,7 +139,6 @@ Required repository secrets:
 
 - `AWS_ACCESS_KEY_ID`
 - `AWS_SECRET_ACCESS_KEY`
-- `AWS_SESSION_TOKEN`
 
 Required workflow inputs:
 
@@ -209,6 +208,7 @@ Notes:
 - [AGENTS.md](/workspaces/ai-tic-tac-toe-lab/AGENTS.md): working rules and phase discipline for agents
 - [WorkTracker.md](/workspaces/ai-tic-tac-toe-lab/WorkTracker.md): epic/story tracking
 - [LD-WorkLog.md](/workspaces/ai-tic-tac-toe-lab/LD-WorkLog.md): detailed running work log
+- [docs/lab-wrap-up.md](/workspaces/ai-tic-tac-toe-lab/docs/lab-wrap-up.md): wrap-up references and retrospective notes for stakeholder handoff
 - [docs/architecture.md](/workspaces/ai-tic-tac-toe-lab/docs/architecture.md): application architecture and flow
 - [docs/multiplayer-architecture.md](/workspaces/ai-tic-tac-toe-lab/docs/multiplayer-architecture.md): multiplayer server/client transport and contract notes
 - [docs/project-organization.md](/workspaces/ai-tic-tac-toe-lab/docs/project-organization.md): source layout and ownership

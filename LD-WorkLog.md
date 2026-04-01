@@ -386,3 +386,9 @@
 - Updated the GitHub Actions workflow actions to their current major versions to address the Node 20 deprecation warning shown by GitHub Actions runners.
 - `pull-request.yml` now uses `actions/checkout@v5` and `actions/setup-node@v5`.
 - `deploy.yml` now uses `actions/checkout@v5`, `actions/setup-node@v5`, and `aws-actions/configure-aws-credentials@v5`.
+
+## 2026-04-01 14:05 UTC
+
+- Prepared wrap-up handoff material for stakeholder submission.
+- Corrected `README.md` so the manual deploy workflow no longer claims `AWS_SESSION_TOKEN` is required.
+- Added `docs/lab-wrap-up.md` with repository links, story links, command references, deployment URLs, and concise retrospective notes covering recommendations, context management, work style changes, and Codex CLI learnings.
