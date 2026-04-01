@@ -380,3 +380,9 @@
 - The deploy workflow is parameterized with region, stack names, bucket names, and API CIDR rather than hardcoding environment-specific values.
 - The workflow deploys the API first, resolves the live API URL, then deploys the static site with `VITE_API_ORIGIN` pointed at that API.
 - Updated `README.md` and `infra/README.md` to document the required GitHub secrets and the manual deploy workflow behavior.
+
+## 2026-04-01 13:52 UTC
+
+- Updated the GitHub Actions workflow actions to their current major versions to address the Node 20 deprecation warning shown by GitHub Actions runners.
+- `pull-request.yml` now uses `actions/checkout@v5` and `actions/setup-node@v5`.
+- `deploy.yml` now uses `actions/checkout@v5`, `actions/setup-node@v5`, and `aws-actions/configure-aws-credentials@v5`.
