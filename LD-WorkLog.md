@@ -392,3 +392,25 @@
 - Prepared wrap-up handoff material for stakeholder submission.
 - Corrected `README.md` so the manual deploy workflow no longer claims `AWS_SESSION_TOKEN` is required.
 - Added `docs/lab-wrap-up.md` with repository links, story links, command references, deployment URLs, and concise retrospective notes covering recommendations, context management, work style changes, and Codex CLI learnings.
+
+## 2026-04-01 14:09 UTC
+
+- Added a `Rick Comments` section to `docs/lab-wrap-up.md` noting that the effort went fairly smoothly overall and calling out the deferred lexicon issue as the main exception.
+
+## 2026-04-01 14:12 UTC
+
+- Expanded the `Rick Comments` section in `docs/lab-wrap-up.md` to reflect the more detailed repo record: the ambiguous `status bar` term was interpreted against the wrong component, the change broadened unnecessarily, the work was reverted, and the refinement was deferred to Phase 4 after concluding that a quick lexicon review would have prevented the issue.
+
+## 2026-04-01 14:15 UTC
+
+- Reframed the `Rick Comments` section to present the problem as a potential lexicon issue between the human operator and the agent, and added the specific recommendation of front-loading a short shared terminology review when working from inherited requirements.
+- Added the operator perspective that the level of misunderstanding may have been influenced by not authoring the original requirements directly, since this kind of simple-change communication failure is not typical in normal work.
+
+## 2026-04-01 14:18 UTC
+
+- Tightened the `Rick Comments` wording again to capture the stronger operator perspective: this degree of misunderstanding and inability to land a simple change quickly is uncommon, and the issue may have been amplified by working from inherited requirements without enough shared technical anchors up front.
+
+## 2026-04-01 14:24 UTC
+
+- Fixed `docs/lab-wrap-up.md` link targets for GitHub rendering by replacing local filesystem paths with repo-relative markdown links.
+- Verified the wrap-up document now points at repository files and sections in a way that will work from the GitHub UI.

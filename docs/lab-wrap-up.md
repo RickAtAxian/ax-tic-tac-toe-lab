@@ -8,27 +8,27 @@
 
 ## Project Docs
 
-- [README.md](/workspaces/ai-tic-tac-toe-lab/README.md)
-- [AGENTS.md](/workspaces/ai-tic-tac-toe-lab/AGENTS.md)
-- [WorkTracker.md](/workspaces/ai-tic-tac-toe-lab/WorkTracker.md)
-- [LD-WorkLog.md](/workspaces/ai-tic-tac-toe-lab/LD-WorkLog.md)
-- [architecture.md](/workspaces/ai-tic-tac-toe-lab/docs/architecture.md)
-- [multiplayer-architecture.md](/workspaces/ai-tic-tac-toe-lab/docs/multiplayer-architecture.md)
-- [project-organization.md](/workspaces/ai-tic-tac-toe-lab/docs/project-organization.md)
-- [infra/README.md](/workspaces/ai-tic-tac-toe-lab/infra/README.md)
+- [README.md](../README.md)
+- [AGENTS.md](../AGENTS.md)
+- [WorkTracker.md](../WorkTracker.md)
+- [LD-WorkLog.md](../LD-WorkLog.md)
+- [architecture.md](./architecture.md)
+- [multiplayer-architecture.md](./multiplayer-architecture.md)
+- [project-organization.md](./project-organization.md)
+- [infra/README.md](../infra/README.md)
 
 ## User Stories Given to AI
 
-- [Phase 1 user stories](/workspaces/ai-tic-tac-toe-lab/phases/phase-1/phase-1.md)
-- [Phase 2 user stories](/workspaces/ai-tic-tac-toe-lab/phases/phase-2/phase-2.md)
-- [Phase 3 user stories](/workspaces/ai-tic-tac-toe-lab/phases/phase-3/phase-3.md)
-- [Execution tracker](/workspaces/ai-tic-tac-toe-lab/WorkTracker.md)
+- [Phase 1 user stories](../phases/phase-1/phase-1.md)
+- [Phase 2 user stories](../phases/phase-2/phase-2.md)
+- [Phase 3 user stories](../phases/phase-3/phase-3.md)
+- [Execution tracker](../WorkTracker.md)
 
 ## Build And Test Commands
 
-- [Available Scripts](/workspaces/ai-tic-tac-toe-lab/README.md#available-scripts)
-- [Testing](/workspaces/ai-tic-tac-toe-lab/README.md#testing)
-- [Phase 3 Review Commands](/workspaces/ai-tic-tac-toe-lab/README.md#phase-3-review-commands)
+- [Available Scripts](../README.md#available-scripts)
+- [Testing](../README.md#testing)
+- [Phase 3 Review Commands](../README.md#phase-3-review-commands)
 
 Core commands:
 
@@ -71,3 +71,9 @@ Core commands:
 - Small, reviewable commits after accepted milestones reduced risk and made recovery straightforward.
 - Documentation discipline mattered more as the project scaled; without repo-native context documents, the cost of reloading state would have been much higher.
 - Deployment work exposed real operational gaps quickly, such as CORS assumptions, production API origin wiring, and script output that needed to be machine-readable.
+
+## Rick Comments
+
+Everything went fairly smoothly overall. The one notable exception looks like a potential lexicon issue between the human operator and the agent, where a term like `status bar` did not map cleanly to the same UI component on both sides.
+
+One possible fix is to front-load a short terminology alignment between the human operator and the agent before implementation begins, especially for UI work and especially when the operator is working from inherited requirements rather than requirements they wrote themselves. I am not fully sure whether that was the cause here because I did not create the original requirement language, but I do know I do not run into this level of misunderstanding, or this kind of difficulty getting a simple change done quickly, very often, and certainly not to this degree of struggling to explain the request without technical anchors. In this case, the ambiguity led to the wrong UI element being targeted, the scope broadening beyond the intended request, a full revert, and the work eventually being deferred to Phase 4 as `STORY-4.1`.
